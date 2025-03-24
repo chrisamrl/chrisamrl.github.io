@@ -1,11 +1,11 @@
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export', 
+  output: 'export',
+  distDir: 'out',
   reactStrictMode: true,
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
   async rewrites() {
     return [
