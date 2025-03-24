@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://chrisamrl.github.io
+
+# Sitemaps
+Sitemap: https://chrisamrl.github.io/sitemap.xml
