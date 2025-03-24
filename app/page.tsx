@@ -4,9 +4,9 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
-          src="/profile.png"
+          src="/pikachu.jpg"
           alt="Profile photo"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
@@ -16,48 +16,38 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio template!
+        {/* Christian Susanto */}
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          Hi! :)
+          I am a 4th year Computer Science student @ UBC. I am interested in systems, networking, and I love learning about algorithms!
         </p>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
+          I am an incoming intern @ {""} 
+
           <a
             target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
+            href="https://microsoft.com"
           >
-            more
-          </a>
-          .
-        </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
+            Microsoft
+          </a>, working in the One Drive team.
+          
+          I have previously worked @ {""}
           <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
             target="_blank"
+            href="https://amazon.ca"
           >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
+            Amazon
+          </a>, working in the Gift Card team (Yes, everything related to your Amazon gift cards from your raffle!).
+
+          Before that, I worked @ {""}
+          <a
+            target="_blank"
+            href="https://www.lumentum.com/en"
+          >
+            Lumentum
+          </a>, where I worked on automating test for optical module called Wavelength Selective Switches.
         </p>
       </div>
     </section>
