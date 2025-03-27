@@ -4,9 +4,10 @@ import { metaData } from "../config";
 
 const navItems = {
   "/": { name: "Home" },
-  "/blog": { name: "Blog" },
-  "/projects": { name: "Projects" },
-  "/photos": { name: "Photos" },
+  "/christian_susanto_resume.pdf": { name: "Resume" },
+  // "/blog": { name: "Blog" },
+  // "/projects": { name: "Projects" },
+  // "/photos": { name: "Photos" },
 };
 
 export function Navbar() {

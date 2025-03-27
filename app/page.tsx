@@ -39,7 +39,7 @@ export default function Page() {
             href="https://amazon.ca"
           >
             Amazon
-          </a>, working in the Gift Card team (Yes, everything related to your Amazon gift cards from your raffle!).
+          </a>, working in the Gift Card team.
 
           Before that, I worked @ {""}
           <a
