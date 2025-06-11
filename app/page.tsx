@@ -24,14 +24,14 @@ export default function Page() {
           I am a 4th year Computer Science student @ UBC. I am interested in systems, networking, and I love learning about algorithms!
         </p>
         <p>
-          I am an incoming intern @ {""} 
+          I am a current intern @ {""} 
 
           <a
             target="_blank"
             href="https://microsoft.com"
           >
             Microsoft
-          </a>, working in the One Drive team.
+          </a>, working in the One Drive Sync Client team.
           
           I have previously worked @ {""}
           <a
