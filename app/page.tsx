@@ -21,10 +21,10 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           Hi! :)
-          I am a 4th year Computer Science student @ UBC. I am interested in systems, networking, and I love learning about algorithms!
+          I am a 4th year Computer Science student @ UBC. I am graduating in  <b>May 2026</b>. I am interested in systems, networking, and I love learning about algorithms!
         </p>
         <p>
-          I am a current intern @ {""} 
+          I recently interned @ {""} 
 
           <a
             target="_blank"
@@ -49,6 +49,21 @@ export default function Page() {
             Lumentum
           </a>, where I worked on automating test for optical module called Wavelength Selective Switches.
         </p>
+        <p>
+          Outside of CS, I enjoy baking, experimenting with matcha drinks, and exploring new cities. Feel free to reach out!
+        </p>
+        <p>
+          <span className="text-blue-600"> 
+          I am currently looking for new grad 2026 opportunities in Software Engineering. 
+          I’m also passionate about mentorship and would be happy to connect with a mentee, having previously TA'd CPSC 304 at UBC.
+          </span> 
+        </p>
+        <p>
+          <span className="text-blue-600"> 
+          If you think we’d be a great fit or if I can be of help, feel free to reach out! 
+          </span> 
+        </p>
+
       </div>
     </section>
   );
